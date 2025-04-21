@@ -3,8 +3,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/makentu2024
-    username: root
-    password: 1234
+    username: {your_username}
+    password: {your_password}
   #文件上傳配置
   servlet:
     multipart:
